@@ -1,0 +1,153 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: #ffffff;
+  font-size: 62.5%;
+  font-weight: normal;
+  background: #000000;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(6, 6, 6, 1) 100%
+  );
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+input {
+  outline: 0;
+  border: none;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 130rem;
+  margin: 0 auto;
+}
+
+.button {
+  border-radius: 5rem;
+  padding: 1rem 3rem;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+.header {
+  padding: 4rem 11rem 4rem 8rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+  z-index: 10;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav a:not(:last-child) {
+  margin-right: 7.1em;
+}
+
+.header__nav a {
+  font-size: 1.6rem;
+}
+
+.header__logo {
+  display: block;
+  width: 4rem;
+  height: 4rem;
+}
+
+.header__button {
+  margin-left: 55.3rem;
+  background: linear-gradient(142deg, #c89afc 0%, #7c6afa 100%);
+}
+
+.promo {
+  margin-top: 27rem;
+}
+
+.promo .container {
+  position: relative;
+  z-index: 2;
+}
+
+.promo__title {
+  max-width: 76rem;
+  margin-bottom: 5rem;
+  font-size: 6.4rem;
+}
+
+.promo__timer {
+  display: flex;
+  margin-bottom: 7.6rem;
+}
+
+.timer__item {
+  width: 10.2rem;
+  height: 11.2rem;
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.timer__item:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.timer__item-count {
+  font-size: 3.6rem;
+}
+
+.timer__item-text {
+  font-size: 1.6rem;
+  opacity: 0.4;
+}
+
+.promo__button {
+  background: linear-gradient(141deg, #df5950 0%, #451046 100%);
+}
+
+.promo__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
