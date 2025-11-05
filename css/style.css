@@ -26,6 +26,7 @@ html,
 body {
   color: #ffffff;
   font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   background: #000000;
   background: linear-gradient(
@@ -73,7 +74,14 @@ h6 {
   border-radius: 5rem;
   padding: 1rem 3rem;
   font-size: 1.6rem;
+  line-height: 150%;
   color: #ffffff;
+}
+
+.title {
+  font-size: 4.8rem;
+  line-height: 140%;
+  font-weight: 700;
 }
 
 .header {
@@ -103,6 +111,7 @@ h6 {
 
 .header__nav a {
   font-size: 1.6rem;
+  line-height: 150%;
 }
 
 .header__logo {
@@ -123,12 +132,15 @@ h6 {
 .promo .container {
   position: relative;
   z-index: 2;
+  margin-bottom: 22.8rem;
 }
 
 .promo__title {
   max-width: 76rem;
   margin-bottom: 5rem;
   font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 140%;
 }
 
 .promo__timer {
@@ -152,10 +164,13 @@ h6 {
 
 .timer__item-count {
   font-size: 3.6rem;
+  line-height: 140%;
+  font-weight: 700;
 }
 
 .timer__item-text {
   font-size: 1.6rem;
+  line-height: 140%;
   opacity: 0.4;
 }
 
@@ -168,4 +183,98 @@ h6 {
   top: 0;
   left: 0;
   z-index: 1;
+}
+
+.work {
+  padding-top: 20rem;
+  padding-bottom: 24.3rem;
+}
+
+.work__wrapper {
+  display: flex;
+}
+
+.work__img {
+  width: 52.6rem;
+  height: 54.2rem;
+  margin-right: 13.9rem;
+}
+
+.work__title {
+  margin-bottom: 4.5rem;
+  padding-top: 6.9rem;
+}
+
+.work__text {
+  font-size: 1.6rem;
+  line-height: 160%;
+  max-width: 63.6rem;
+}
+
+.process {
+  padding-bottom: 20rem;
+}
+
+.process__wrapper {
+  position: relative;
+}
+
+.proccess__header {
+  display: flex;
+  align-items: center;
+}
+
+.process__logo {
+  width: 12.7rem;
+  height: 12.7rem;
+  padding-right: 2rem;
+  position: relative;
+  left: -2.4rem;
+}
+
+.proccess__title {
+  margin-bottom: 4.9rem;
+}
+
+.process__description {
+  font-size: 1.6rem;
+  line-height: 160%;
+  max-width: 41.1rem;
+  opacity: 0.5;
+  margin-bottom: 8rem;
+}
+
+.process__columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.process__columns::after {
+  content: "";
+  display: block;
+  width: 130rem;
+  height: 0.2rem;
+  position: absolute;
+  top: 34rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: linear-gradient(142deg, #c89afc 0%, #7c6afa 100%);
+}
+
+.process__item {
+  max-width: 30.6rem;
+}
+
+.process__work {
+  font-size: 3.6rem;
+  line-height: 140%;
+  font-weight: 700;
+  margin-bottom: 6.5rem;
+}
+
+.process__work-text {
+  font-size: 1.4rem;
+  line-height: 160%;
+  opacity: 0.5;
 }
