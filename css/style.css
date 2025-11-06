@@ -9,6 +9,15 @@
 
 @font-face {
   font-family: "Roboto";
+  src: url("/fonts/Roboto-Medium.woff2") format("woff2"),
+    url("/fonts/Roboto-Medium.woff") format("woff");
+  font-weight: medium;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
   src: url("/fonts/Roboto-Bold.woff2") format("woff2"),
     url("/fonts/Roboto-Bold.woff") format("woff");
   font-weight: bold;
@@ -70,10 +79,14 @@ h6 {
   margin: 0 auto;
 }
 
+:root {
+  --text-size-medium: 1.6rem;
+}
+
 .button {
   border-radius: 5rem;
   padding: 1rem 3rem;
-  font-size: 1.6rem;
+  font-size: var(--text-size-medium);
   line-height: 150%;
   color: #ffffff;
 }
@@ -110,7 +123,7 @@ h6 {
 }
 
 .header__nav a {
-  font-size: 1.6rem;
+  font-size: var(--text-size-medium);
   line-height: 150%;
 }
 
@@ -169,7 +182,7 @@ h6 {
 }
 
 .timer__item-text {
-  font-size: 1.6rem;
+  font-size: var(--text-size-medium);
   line-height: 140%;
   opacity: 0.4;
 }
@@ -206,7 +219,7 @@ h6 {
 }
 
 .work__text {
-  font-size: 1.6rem;
+  font-size: var(--text-size-medium);
   line-height: 160%;
   max-width: 63.6rem;
 }
@@ -237,7 +250,7 @@ h6 {
 }
 
 .process__description {
-  font-size: 1.6rem;
+  font-size: var(--text-size-medium);
   line-height: 160%;
   max-width: 41.1rem;
   opacity: 0.5;
@@ -302,8 +315,9 @@ h6 {
 .command__item {
   display: flex;
   flex-direction: column;
-  width: 41.6rem;
   align-items: center;
+  justify-content: center;
+  width: 41.6rem;
 }
 
 .command__item-img {
@@ -316,11 +330,12 @@ h6 {
 .command__item-name {
   font-size: 2.4rem;
   line-height: 140%;
-  padding: 0 auto 1.5rem;
+  /* padding: 0 auto 1.5rem; */
+  font-weight: 500;
 }
 
 .command__item-spec {
-  font-size: 1.6rem;
+  font-size: var(--text-size-medium);
   line-height: 160%;
   margin-bottom: 3rem;
 }
@@ -344,7 +359,7 @@ h6 {
 }
 
 .assembly__text {
-  font-size: 1.6rem;
+  font-size: var(--text-size-medium);
   line-height: 160%;
   opacity: 0.5;
   margin-bottom: 4.52rem;
