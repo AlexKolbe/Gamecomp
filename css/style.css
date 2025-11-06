@@ -278,3 +278,102 @@ h6 {
   line-height: 160%;
   opacity: 0.5;
 }
+
+.command {
+  padding-bottom: 20rem;
+}
+
+.command__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 11.3rem;
+}
+
+.command__header .process__logo {
+  rotate: -45deg;
+}
+
+.command__teams {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.command__item {
+  display: flex;
+  flex-direction: column;
+  width: 41.6rem;
+  align-items: center;
+}
+
+.command__item-img {
+  width: 19rem;
+  height: 19rem;
+  margin-bottom: 4rem;
+  border-radius: 50%;
+}
+
+.command__item-name {
+  font-size: 2.4rem;
+  line-height: 140%;
+  padding: 0 auto 1.5rem;
+}
+
+.command__item-spec {
+  font-size: 1.6rem;
+  line-height: 160%;
+  margin-bottom: 3rem;
+}
+
+.command-item-link {
+  border: 1px solid #ffffff;
+}
+
+.assembly {
+  margin-bottom: 24.42rem;
+}
+
+.assembly__wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.assembly__title {
+  margin-bottom: 3rem;
+}
+
+.assembly__text {
+  font-size: 1.6rem;
+  line-height: 160%;
+  opacity: 0.5;
+  margin-bottom: 4.52rem;
+}
+
+.assembly__button {
+  background: linear-gradient(141deg, #df5950 0%, #451046 100%);
+  margin-bottom: 4.08rem;
+}
+
+.assembly__social {
+  display: flex;
+}
+
+.assembly__social-link {
+  width: 5rem;
+  height: 5rem;
+  background-image: linear-gradient(142deg, #c89afc 0%, #7c6afa 100%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.assembly__social-link:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.assembly__img {
+  width: 2.4rem;
+  height: 2.4rem;
+}
