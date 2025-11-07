@@ -395,6 +395,7 @@ h6 {
 
 .modal {
   /* display: flex; */
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -407,7 +408,6 @@ h6 {
   z-index: 11;
   padding: 3rem 0;
   background-color: rgba(0, 0, 0, 0.8);
-  display: none;
   transition: opacity 0.3s ease;
 }
 
