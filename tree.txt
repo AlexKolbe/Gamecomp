@@ -1,0 +1,32 @@
+.
+├── css
+│   ├── normalize.css
+│   └── style.css
+├── fonts
+│   ├── Roboto-Bold.woff
+│   ├── Roboto-Bold.woff2
+│   ├── Roboto-Medium.woff
+│   ├── Roboto-Medium.woff2
+│   ├── Roboto-Regular.woff
+│   └── Roboto-Regular.woff2
+├── img
+│   ├── close-cross.svg
+│   ├── facebook.svg
+│   ├── image.png
+│   ├── instagram.svg
+│   ├── logo.svg
+│   ├── main-screen__bgc.jpg
+│   ├── main-screen.jpg
+│   ├── man1.png
+│   ├── man2.png
+│   ├── man3.png
+│   ├── process.svg
+│   ├── vk.svg
+│   └── youtube.svg
+├── index.html
+├── js
+│   └── main.js
+├── README.MD
+└── tree.txt
+
+4 directories, 25 files
