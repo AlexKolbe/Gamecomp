@@ -1,5 +1,5 @@
 // Анимация на секцию COURSE
-// js/courseAnimation.js
+
 const courseAnimation = () => {
   const courseSection = document.querySelector(".course");
   const earnedElement = document.querySelector(
