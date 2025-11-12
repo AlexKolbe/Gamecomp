@@ -254,6 +254,17 @@ h6 {
 
 .course__progress-element {
   width: 100%;
+  position: relative;
+}
+
+/* Для реализации анимации */
+.course__progress-element progress {
+  transition: all 0.1s ease;
+}
+
+/* Убедимся, что прогресс бар виден при нулевом значении */
+.course__progress-element progress:not([value]) {
+  opacity: 0.5;
 }
 
 .course__progress-minmax {
